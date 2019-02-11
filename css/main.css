@@ -302,7 +302,90 @@ textarea {
 
 
 body{
-  background-color: #E5E9F2;
+  background-color: #EFF2F7;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #1D0E37;
+}
+h1{
+  font-size: 4rem;
+}
+h2{
+  font-size: 3rem;
+}
+h3{
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #D600FF;
+}
+a:link, a:visited, a:hover, a:active{
+  color: black;
+  text-decoration: none;
+}
+
+
+
+/* areas */
+.content{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+}
+.hero{
+  padding-top: 200px;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  /* border-bottom: 1px solid #F9FAFC; */
+  z-index: 10;
+}
+.navbar .title{
+  margin-left: 60px;
+}
+ul {
+  margin: 0;
+  list-style: none;
+  font-weight: 300;
+  float: right;
+}
+li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.icon{
+  position: absolute;
+  width: 40px;
+  top: -9px;
+}
+.mockup img{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+.mockup .shadow{
+  position: absolute;
+  top: 0;
+  width: calc(100% - 40px);
+  height: 200px;
+  box-shadow: -10px 10px 30px 0 rgba(229,232,235,1), 0 0 0 transparent;
+  -moz-box-shadow: -10px 10px 30px 0 rgba(229,232,235,1), 0 0 0 transparent;
+  -webkit-box-shadow: -10px 10px 30px 0 rgba(229,232,235,1), 0 0 0 transparent;
+}
+
+
+
+.thin{
+  font-weight: 100;
 }
 .webgl-content {
   background-image: url("../img/phone.png");
@@ -316,4 +399,9 @@ body{
   /* box-shadow: -10px 10px 30px 0 rgba(229,232,235,1), 0 0 0 transparent;
   -moz-box-shadow: -10px 10px 30px 0 rgba(229,232,235,1), 0 0 0 transparent;
 	-webkit-box-shadow: -10px 10px 30px 0 rgba(229,232,235,1), 0 0 0 transparent; */
+}
+.fullscreen{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }

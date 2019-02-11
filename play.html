@@ -12,8 +12,11 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+
   <!-- unity -->
   <link rel="stylesheet" href="TemplateData/style.css">
+  <link rel="stylesheet" href="css/grid12.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -27,14 +30,33 @@
 
   <!-- Add your site or application content here -->
 
-  <div class="phone">
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 700px; height: 400px"></div>
+
+  <div class="navbar">
+    <div class="content">
+      <div class="container-fluid">
+        <div class="col-xs-12">
+          <a href="/">
+            <img src="/img/logo-circle.png" class="icon">
+            <span class="title">Cyber Slider</span>
+          </a>
+          <ul>
+            <li><a href="/play.html">Play</a></li>
+            <li><a href="/privacy.html">Privacy</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
 
+
+
+  <div class="webgl-content">
+    <div id="gameContainer" style="width: 700px; height: 400px"></div>
+    </div>
+  </div>
   <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)">FS</div>
+
+
 
 
 
