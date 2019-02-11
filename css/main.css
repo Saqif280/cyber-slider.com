@@ -320,6 +320,10 @@ h3{
   font-weight: 300;
   color: #D600FF;
 }
+p{
+  text-transform: none;
+  color: #8492A6;
+}
 a:link, a:visited, a:hover, a:active{
   color: #1D0E37;
   text-decoration: none;
