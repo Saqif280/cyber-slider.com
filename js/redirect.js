@@ -11,5 +11,5 @@ function getMobileOperatingSystem() {
 if(getMobileOperatingSystem()=="Android") {
   window.location = 'https://play.google.com/store/apps/details?id=com.saqif.cyberSlider';
 } else if (getMobileOperatingSystem()=="iOS") {
-  // window.location = '';
+  window.location = 'https://itunes.apple.com/us/app/cyber-slider/id1452119586?ls=1&mt=8';
 }
