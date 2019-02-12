@@ -339,11 +339,21 @@ a:link, a:visited, a:hover, a:active{
   /* padding-left: 20px;
   padding-right: 20px; */
 }
+.footer{
+  /* padding-top: 200px; */
+  margin-top: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #E5E9F2;
+  font-size: 0.6rem;
+  color: #8492A6;
+  text-transform: none;
+}
 .hero{
   padding-top: 150px;
 }
 .navbar{
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   padding-top: 20px;
@@ -432,4 +442,7 @@ li {
 }
 .t-c{
   text-align: center;
+}
+.spacer{
+  height: 450px;
 }
