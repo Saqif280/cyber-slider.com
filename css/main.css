@@ -445,3 +445,9 @@ a:link, a:visited, a:hover, a:active{
 .spacer{
   height: 450px;
 }
+
+@media only screen and (max-width: 600px) {
+  .title{
+    display: none;
+  }
+}
